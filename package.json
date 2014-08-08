@@ -1,0 +1,27 @@
+{
+    "name": "postcss-helpers",
+    "description": "Some general purpose helpers for PostCSS, created to make working with url() and @import values more easy.",
+    "version": "0.1.0",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iAdramelk/postcss-helpers.git"
+    },
+    "authors": [
+        "Alexey Ivanov <iadramelk@gmail.com>"
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+        "test": "mocha --reporter list"
+    },
+    "keywords": [ "postcss" ],
+    "dependencies": {
+        "URIjs": "~1.13"
+    },
+    "devDependencies": {
+        "mocha": "^1.21.4"
+    }
+}
