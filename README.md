@@ -40,7 +40,14 @@ For example you can use UrlsHelper.URIS[0].href() to get value for the first url
 
 After you finished changing values of the URIS you can get modified rule text with this command.
 
+### Other
 
+#### #regexp
+
+Collection of some useful RegExps based on CSS specification grammar rules: http://www.w3.org/TR/CSS21/grammar.html
+
+  - STRINGS – RegExp for css &lt;string&gt; with 'ig' flags.
+  - URLS – RegExp for css &lt;uri&gt; with 'ig' flags.
 
 ### new ImportHelper( rule )
 
@@ -68,4 +75,5 @@ UrlsHelper() and ImportHelper() will not escape quotes in the new URI values so 
 
 ### Release History
 
- * 2014-07-08   0.1.0   Initial release.
+ * 2014-08-08   0.1.0   Initial release.
+ * 2014-08-11   0.1.1   Make regexps public.

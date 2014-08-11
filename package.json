@@ -1,7 +1,7 @@
 {
     "name": "postcss-helpers",
     "description": "Some general purpose helpers for PostCSS, created to make working with url() and @import values more easy.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "index.js",
     "repository": {
         "type": "git",

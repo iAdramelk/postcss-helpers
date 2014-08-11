@@ -2,3 +2,7 @@
   date: 2014-08-08
   changes:
     - Initial release.
+0.0.1:
+  date: 2014-08-11
+  changes:
+    - Make regexps public.
