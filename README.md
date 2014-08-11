@@ -68,6 +68,50 @@ For example you can use ImportHelper.URI.href() to get import value and ImportHe
 After you finished changing values of the URI you can get modified rule text with this command.
 
 
+### Examples
+
+Modify string with multiple url() fragments:
+
+```javascript
+var helpers = require( 'postcss-helpers' );
+
+var rule = 'url(logo1.png)', url( 'logo2.png' ), url( "logo3.png");
+
+var helper = helpers.createUrlsHelper( rule );
+
+helper.URIS.forEach( function( uri ) {
+    uri.suffix( 'jpeg' );
+} );
+
+var modifiedRule = helper.getModifiedRule(); // url(logo1.jpeg)', url( 'logo2.jpeg' ), url( "logo3.jpeg")
+```
+
+Modify @import value:
+
+```javascript
+var helpers = require( 'postcss-helpers' );
+
+var rule = '"src/print.css" print';
+
+var helper = helpers.createImportHelper( rule );
+
+helper.URI.directory( 'dist' );
+
+var modifiedRule = helper.getModifiedRule(); // "dist/print.css" print
+```
+
+Test if string contains url() fragments:
+
+```javascript
+var helpers = require( 'postcss-helpers' );
+
+var rule = 'url(logo1.png)', url( 'logo2.png' ), url( "logo3.png");
+
+helpers.regexp.URIS.test( rule ); // true
+```
+
+
+
 ### Known problems
 
 UrlsHelper() and ImportHelper() will not escape quotes in the new URI values so escape them yourself.
