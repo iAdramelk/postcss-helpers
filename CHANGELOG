@@ -2,7 +2,10 @@
   date: 2014-08-08
   changes:
     - Initial release.
-0.0.1:
+0.1.1:
   date: 2014-08-11
   changes:
     - Make regexps public.
+    - Fixed bug with URIs that contains ?#iefix. Normally URIjs normalizes
+    such urls and removes "?" part, but only in this exact syntax it is now
+    preserved as is.

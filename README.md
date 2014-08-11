@@ -75,5 +75,7 @@ UrlsHelper() and ImportHelper() will not escape quotes in the new URI values so 
 
 ### Release History
 
+See [CHANGELOG](/CHANGELOG) for detailed changes.
+
  * 2014-08-08   0.1.0   Initial release.
- * 2014-08-11   0.1.1   Make regexps public.
+ * 2014-08-11   0.1.1   Make RegExps public. Fixed ?#iefix bug.

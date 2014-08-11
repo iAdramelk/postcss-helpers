@@ -30,6 +30,14 @@ var UrlRules = [
         modifiedHref:   'logo.png',
         modifiedRule:   'url( logo.png ) no-repeat top left',
 
+    },
+    // Really UGLY fix for ?#iefix case, URIjs normalized it's value
+    {
+        originalRule:   'url( font.eot?#iefix )',
+        originalSuffix: 'eot',
+        modifiedHref:   'font2.eot#iefix',
+        modifiedRule:   'url( font2.eot?#iefix )',
+
     }
 ];
 
