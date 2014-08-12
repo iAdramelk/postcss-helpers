@@ -6,6 +6,14 @@
   date: 2014-08-11
   changes:
     - Make regexps public.
-    - Fixed bug with URIs that contains ?#iefix. Normally URIjs normalizes
-    such urls and removes "?" part, but only in this exact syntax it is now
-    preserved as is.
+    - Fixed bug with URIs that contains ?#iefix. Normally URIjs normalizes such urls and removes "?" part, but only in this exact syntax it is now preserved as is.
+
+0.2.0:
+  date: 2014-08-12
+  changes:
+    - Added UrlHelper.getOriginalURI() method.
+    - Added UrlsHelper.getOriginalURIS() method.
+    - Added ImportHelper.getOriginalURI() method.
+    - Added ImportHelper.getOriginalMediaQuery() method.
+    - Added ImportHelper.getMediaQuery() method.
+    - Added ImportHelper.setMediaQuery() method.
