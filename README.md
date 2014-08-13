@@ -145,4 +145,4 @@ See [CHANGELOG](/CHANGELOG) for detailed changes.
 
  * 2014-08-08   0.1.0   Initial release.
  * 2014-08-11   0.1.1   Make RegExps public. Fixed ?#iefix bug.
- * 2014-08-12   0.2.0   Added methods for getting original url() values and for media query manipulations.
+ * 2014-08-12   0.2.0   Added methods for getting original url() values and for media query manipulations.
