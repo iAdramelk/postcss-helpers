@@ -1,4 +1,4 @@
-## postcss-helpers
+## postcss-helpers [![Build Status](https://secure.travis-ci.org/iAdramelk/postcss-helpers.png)](https://travis-ci.org/iAdramelk/postcss-helpers)
 
 > Some general purpose helpers for PostCSS, created to make working with url() and @import values more easy. Can be used without PostCSS.
 
