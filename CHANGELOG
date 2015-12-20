@@ -21,3 +21,7 @@
   date: 2015-12-20
   changes:
     - Updated dependencies
+0.3.1:
+    date: 2015-12-20
+    changes:
+      - Updated forgotten urijs references
