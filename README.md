@@ -35,7 +35,7 @@ Returns Array of all original URI in string. NOT mutated URIs.
 
 #### #URIS
 
-Array of one or more [URIjs](http://medialize.github.io/URI.js/) objects that can be used for URI manipulations.  If there is no url() in the rule returns false.
+Array of one or more [urijs](http://medialize.github.io/URI.js/) objects that can be used for URI manipulations.  If there is no url() in the rule returns false.
 
 For example you can use UrlsHelper.URIS[0].href() to get value for the first url() and UrlsHelper.URIS[0].href('new_uri') to set new URI value. See [full documentation](http://medialize.github.io/URI.js/docs.html).
 
@@ -58,7 +58,7 @@ Returns original URI from string. NOT mutated URI.
 
 #### #URI
 
-[URIjs](http://medialize.github.io/URI.js/) objects that can be used for URI manipulations. If there is no url() in the rule returns false.
+[urijs](http://medialize.github.io/URI.js/) objects that can be used for URI manipulations. If there is no url() in the rule returns false.
 
 For example you can use ImportHelper.URI.href() to get import value and ImportHelper.URI.href('new_uri') to set new URI value. See [full documentation](http://medialize.github.io/URI.js/docs.html).
 

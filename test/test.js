@@ -34,7 +34,7 @@ var UrlRules = [
         modifiedRule:   'url( logo.png ) no-repeat top left',
 
     },
-    // Really UGLY fix for ?#iefix case, URIjs normalized it's value
+    // Really UGLY fix for ?#iefix case, urijs normalized it's value
     {
         originalURI:    'font.eot?#iefix',
         originalRule:   'url( font.eot?#iefix )',
