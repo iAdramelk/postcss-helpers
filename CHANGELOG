@@ -17,3 +17,7 @@
     - Added ImportHelper.getOriginalMediaQuery() method.
     - Added ImportHelper.getMediaQuery() method.
     - Added ImportHelper.setMediaQuery() method.
+0.3.0:
+  date: 2015-12-20
+  changes:
+    - Updated dependencies

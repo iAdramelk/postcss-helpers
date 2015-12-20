@@ -1,7 +1,7 @@
 {
     "name": "postcss-helpers",
     "description": "Some general purpose helpers for PostCSS, created to make working with url() and @import values more easy.",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "main": "index.js",
     "repository": {
         "type": "git",
@@ -19,9 +19,9 @@
     },
     "keywords": [ "postcss" ],
     "dependencies": {
-        "URIjs": "~1.13"
+        "urijs": "1.17"
     },
     "devDependencies": {
-        "mocha": "^1.21.4"
+        "mocha": "2.3.4"
     }
 }
