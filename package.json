@@ -17,11 +17,13 @@
     "scripts": {
         "test": "mocha --reporter list"
     },
-    "keywords": [ "postcss" ],
+    "keywords": [
+        "postcss"
+    ],
     "dependencies": {
-        "urijs": "1.17"
+        "urijs": "^1.18.12"
     },
     "devDependencies": {
-        "mocha": "2.3.4"
+        "mocha": "^3.5.0"
     }
 }
