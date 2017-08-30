@@ -18,7 +18,7 @@ Returns new UrlsHelper object from the rule string with one or more url() (see d
 
 #### #createImportHelper( rule )
 
-Returns new ImportHelper object from the @import walue string (see description below).
+Returns new ImportHelper object from the @import value string (see description below).
 
 
 ### new UrlsHelper( rule )
