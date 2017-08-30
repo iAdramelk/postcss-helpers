@@ -42,7 +42,16 @@ var UrlRules = [
         modifiedHref:   'font2.eot#iefix',
         modifiedRule:   'url( font2.eot?#iefix )',
 
-    }
+    },
+    // Fix for blank url()
+    {
+        originalURI:    '',
+        originalRule:   'url()',
+        originalSuffix: '',
+        modifiedHref:   'image.png',
+        modifiedRule:   'url(\'image.png\')',
+
+    },
 ];
 
 /**
