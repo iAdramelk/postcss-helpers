@@ -25,3 +25,7 @@
     date: 2015-12-20
     changes:
       - Updated forgotten urijs references
+0.3.2
+    date: 2017-08-31
+    changes:
+      - Resolved blank url() case https://github.com/iAdramelk/postcss-urlrewrite/issues/4#issuecomment-325940126
